@@ -169,7 +169,7 @@ function start() { // Inicio da função start() - Inicia no clique
 
     function explosao1(rocketX, rocketY) {
         $("#fundoGame").append("<div id='explosao1'></div");
-        $("#explosao1").css("background-image", "url(../imgs/chama.png)");
+        $("#explosao1").css("background-image", "url(imgs/chama.png)");
         var div = $("#explosao1");
         div.css("top", rocketY);
         div.css("left", rocketX);
@@ -186,7 +186,7 @@ function start() { // Inicio da função start() - Inicia no clique
     function explosao2(rocketXf, rocketYf) {
 
         $("#fundoGame").append("<div id='explosao2'></div");
-        $("#explosao2").css("background-image", "url(../imgs/flames.png)");
+        $("#explosao2").css("background-image", "url(imgs/flames.png)");
         var div = $("#explosao2");
         div.css("top", rocketYf);
         div.css("left", rocketXf);
