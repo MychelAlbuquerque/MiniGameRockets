@@ -1,0 +1,40 @@
+#bluecomet {
+	width: 275px;
+	height: 85px;
+	position: absolute;
+	left: 689px;
+	top: 253px;
+	background-image:url(../imgs/blue.comet.png);
+	
+}
+.animaBlueComet {
+    background-image:url(../imgs/blue.comet.png);
+    animation: play .5s steps(3) infinite;
+    -webkit-animation: play .5s steps(3) infinite;
+    -moz-animation: play .5s steps(3) infinite;
+    -ms-animation: play .5s steps(3) infinite;
+    -o-animation: play .5s steps(3) infinite; 
+}
+@keyframes play {
+	from {background-position:0px;}
+	to {background-position:-1675px;}
+}
+@-webkit-keyframes play {
+	from {background-position:0px;}
+	to {background-position:-1675px;}
+}
+
+@-moz-keyframes play {
+	from {background-position:0px;}
+	to {background-position:-1675px;}
+}
+
+@-ms-keyframes  play {
+	from {background-position:0px;}
+	to {background-position:-1675px;}
+}
+
+@-o-keyframes  play {
+	from {background-position:0px;}
+	to {background-position:-1675px;}
+}

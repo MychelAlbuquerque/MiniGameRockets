@@ -1,0 +1,40 @@
+#firecomet {
+	width: 132px;
+	height: 68px;
+	position: absolute;
+	left: 689px;
+	top: 253px;
+	background-image:url(../imgs/firecomet.png);
+	
+}
+.animaFireComet {
+    background-image:url(../imgs/firecomet.png);
+    animation: playFire .4s steps(3) infinite;
+    -webkit-animation: playFire .4s steps(3) infinite;
+    -moz-animation: playFire .4s steps(3) infinite;
+    -ms-animation: playFire .4s steps(3) infinite;
+    -o-animation: playFire .4s steps(3) infinite; 
+}
+@keyframes playFire {
+	from {background-position:0px;}
+	to {background-position:-405px;}
+}
+@-webkit-keyframes playFire {
+	from {background-position:0px;}
+	to {background-position:-405px;}
+}
+
+@-moz-keyframes playFire {
+	from {background-position:0px;}
+	to {background-position:-405px;}
+}
+
+@-ms-keyframes  playFire {
+	from {background-position:0px;}
+	to {background-position:-405px;}
+}
+
+@-o-keyframes  playFire {
+	from {background-position:0px;}
+	to {background-position:-405px;}
+}

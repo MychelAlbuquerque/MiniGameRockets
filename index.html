@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockets&Stars</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/rocket.css">
+    <link rel="stylesheet" href="CSS/bluecomet.css">
+    <link rel="stylesheet" href="CSS/firecomet.css">
+    <link rel="stylesheet" href="CSS/explosao.css">
+    <link rel="stylesheet" href="CSS/disparo.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="fundoGame">
+
+            <div id="inicio" onclick="start()">
+
+                <h1> Rockets n' Stars </h1>
+                <p>
+                    Utilize a Up Arrow para movimentar o foguete para cima, Down Arrow para movimentar o
+                    para baixo e Right Arrow para disparar.
+                </p>
+                <p> Clique aqui para iniciar!! </p>
+
+            </div>
+            <!--fim DIV inicio-->
+
+
+        </div>
+        <!--Fim DIV fundoGame-->
+
+
+    </div>
+    <!--Fim DIV Container-->
+
+    <!--Sons-->
+
+    <audio src="sons/wrong.wav" preload="auto" id="somImpacto"></audio>
+    <audio src="sons/laser.wav" preload="auto" id="somDisparo"></audio>
+    <audio src="sons/explosion.wav" preload="auto" id="somExplosao"></audio>
+    <audio src="sons/fundo.wav" preload="auto" id="somFundo"></audio>
+    <audio src="sons/gameover.wav" preload="auto" id="somOver"></audio>
+
+
+    <!--Scripts-->
+    <script type= "text/javascript" src="js/js.js"></script>
+    
+    
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+    
+
+
+</body>
+
+</html>

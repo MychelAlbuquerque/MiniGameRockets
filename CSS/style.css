@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhaijaan+2:wght@800&family=Montserrat:wght@100&display=swap');
+
+h1 {
+	font-family: 'Baloo Bhaijaan 2', cursive;
+	font-size:40px;
+	color:#31037a;
+}
+body {
+	background-image:url(../imgs/fundo.png);
+}
+#container{
+	width:950px;
+	height:auto;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+#fundoGame {
+	width:950px;
+	height:630px;
+	background-image:url(../imgs/fundogame.jpg);
+	border-color:#FFF;
+	border-style:solid;
+}
+#inicio, #fim {
+	width:350px;
+	height:220px;
+	background-color:rgba(255, 255, 255, 0.589);
+ 	margin-left:auto;
+        margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+	border-style:solid;
+	border-color:#0652ce;
+
+}
+#fim{
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#placar {
+	
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	right: 1px;
+	top: 585px;
+	background-color:rgba(255, 255, 255, 0.589);
+    border-style: double;
+	text-align: center;
+	padding: 2px;
+	border-color:#0652ce;
+	
+}
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:rgb(33, 19, 230);
+	margin-top:4px 
+
+}
+
+
+

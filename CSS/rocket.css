@@ -1,0 +1,41 @@
+#rocket {
+	width:190px;
+	height:82px;
+	position:absolute;
+	left:5px;
+	top:179px;
+    background-image:url(../imgs/rocket.png);
+
+}
+.animaRocket {
+	background-image:url(../imgs/rocket.png);
+	animation:playRocket .6s steps(3) infinite;
+
+       -webkit-animation:playRocket .6s steps(3) infinite;
+       -moz-animation:playRocket .6s steps(3) infinite;
+       -ms-animation:playRocket .6s steps(3) infinite;
+       -o-animation:playRocket .6s steps(3) infinite;
+}
+@keyframes playRocket {
+	from {background-position:0px;}
+	to {background-position:1140px;}
+}
+@-webkit-keyframes playRocket {
+	from {background-position:0px;}
+	to {background-position:1140px;}
+}
+
+@-moz-keyframes playRocket {
+	from {background-position:0px;}
+	to {background-position:1140px;}
+}
+
+@-ms-keyframes playRocket {
+	from {background-position:0px;}
+	to {background-position:1140px;}
+}
+
+@-o-keyframes playRocket {
+	from {background-position:0px;}
+	to {background-position:1140px;}
+}
